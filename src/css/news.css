@@ -1,0 +1,56 @@
+.NewsContainer {
+    margin: 20px auto;
+    box-shadow: 5px 10px 60px 6px rgba(0,0,0,0.67); 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+.NewsHeader {
+    margin: 20px auto;
+    background-color: rgb(65, 63, 196);
+}
+
+.NewsHeaderTd {
+    text-align: center;
+    outline: 1px solid rgb(255, 255, 255);
+    padding: 10px 5px;
+    cursor: default;
+    text-shadow: rgba(0,0,0,0.67) 2px 2px 3px;
+    color: white;
+}
+
+.addnewsBtn {
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 3em;
+    border-radius: 20px;
+}
+
+.NewsTd {
+    text-align: center;
+    outline: 1px solid rgb(65, 63, 196);
+    cursor: default;
+    text-shadow: rgba(0,0,0,0.67) 1px 1px 1px;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.ChangeNews {
+    background-color: rgb(100, 126, 9);
+    font-size: 2em;
+    color: #b1a219;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.DeleteNews {
+    padding: 0 15px;
+    background-color: rgb(255, 1, 1);
+    font-size: 2em;
+    color: #fdfdfd;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}

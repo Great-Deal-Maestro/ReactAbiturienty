@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*::selection {
+  background: transparent;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-weight: bold;
+  background-color: rgb(224, 13, 13);
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 3px; 
+}
+
+#alert {
+  cursor: default;
+  background-color: #c5a12a;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  padding: 15px 20px;
+  width: 250px;
+  margin-left: -145px;
+  text-align: center;
+  border-radius: 5px; 
+  box-shadow: 5px 10px 60px 6px rgba(0,0,0,0.67); 
+}
+
+#alert strong {
+  text-shadow: rgba(0,0,0,0.67) 2px 2px 3px;
+  color: rgb(48, 44, 44);
+}
+
+.btn {
+  width: 30%;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: rgb(65, 63, 196);
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: rgba(0,0,0,0.67) 2px 2px 3px;
+  color: white;
+}

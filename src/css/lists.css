@@ -1,0 +1,50 @@
+.container {
+    padding: 8px;
+}
+
+.ruleChoice {
+    width: 100%;
+    padding: 5px 3px;
+    cursor: pointer;
+    border: 1px solid rgb(136, 132, 132);
+    border-radius: 5px;
+}
+
+.facultiesList, .coursesList, .groupsList {
+    width: 100%;
+    padding: 8px;
+    padding-right: 14px;
+    margin-top: 6px;
+    border: 1px solid rgb(136, 132, 132);
+    border-radius: 3px;
+    display: none;
+}
+
+.facult, .course, .group {
+    display: block;
+    width: 100%;
+    margin: 5px;
+    border: 1px solid rgb(136, 132, 132);
+    border-radius: 3px;
+}
+
+.facult option, .course option, .group option {
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 100%;
+    padding: 5px;
+}
+
+.RuleBtn {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    height: 20px;
+}
+
+.ics {
+    float: right;
+}

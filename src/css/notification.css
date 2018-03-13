@@ -1,0 +1,66 @@
+.NotificationForm {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -250px;
+    box-shadow: 5px 10px 60px 6px rgba(0,0,0,0.67); 
+    border-radius: 10px;
+    padding-bottom: 55px;
+}
+
+.NotificationFormHeader {
+    background-color: rgb(65, 63, 196);
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0;
+    cursor: default;
+    text-shadow: rgba(0,0,0,0.67) 2px 2px 3px;
+    color: white;
+}
+
+.NotificationFormBody {
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 20px;
+}
+
+.NotificationFormInputs {
+    margin: 20px auto;
+    outline: 1px solid rgb(139, 136, 136);
+    width: 87%;
+    padding: 7px 2px 7px 5px;
+    display: block;
+}
+
+.NotificationForm input::selection {
+    background: rgb(65, 63, 196);
+}
+
+.NotificationBtn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: block;
+    margin-left: -60px;
+}
+
+.RuleHeader {
+    margin: 5px;
+    margin-left: 20px;
+    display: inline-block;
+    font-weight: bold;
+    color: #1c047c;
+    cursor: default;
+    text-shadow: rgba(0,0,0,0.67) 2px 2px 3px; 
+}
+
+.RuleAdd {
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+    font-size: 2em;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.67) 2px 2px 3px; 
+}
